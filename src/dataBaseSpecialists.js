@@ -9,8 +9,8 @@ const dataBaseSpecialists = [
     {
      name:'Virgilio Martinez',
      image:'virgilio',
-     awards:"WORL'S STOP CHEF AWARD WINNER",
-     text: "Our culinary expert",
+     awards:'WORL IS STOP CHEF AWARD WINNER',
+     text: 'Our culinary expert',
      },  
     {
      name:'Alonso Cueto',

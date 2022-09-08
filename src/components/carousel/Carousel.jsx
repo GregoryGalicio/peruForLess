@@ -13,7 +13,7 @@ function Carousel (props) {
           <div className ='container-text'>
             <p className='name-carousel'>{props.name}</p>
             <p className='awards-carousel'>{props.awards}</p>
-            <p className='text-carousel'>"{props.text}"</p>
+            <p className='text-carousel'>{props.text}</p>
           </div>
         </div>
     )
