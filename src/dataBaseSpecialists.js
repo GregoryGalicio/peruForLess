@@ -1,29 +1,29 @@
-const dataBaseCostumers = [
+const dataBaseSpecialists = [
     {
-      name:'Kim MacQuarrie',
-      imagen:'kim',
+      name:'Kim  MacQuarrie',
+      image:'kim',
       awards:'FOUR-TIMME EMMY- WINNER',
-      title:'',
+      text:'',
       
       },
     {
      name:'Virgilio Martinez',
-     imagen:'virgilio',
+     image:'virgilio',
      awards:"WORL'S STOP CHEF AWARD WINNER",
-     title:'Our culinary expert',
+     text: "Our culinary expert",
      },  
     {
      name:'Alonso Cueto',
-     imagen:'alonso',
+     image:'alonso',
      awards:'PH.D. UNIVERSITY OF TEXAS, AUSTIN',
-     title:'',
+     text:'',
     },
     {
-     name:'Kim MacQuarrie',
-     imagen:'kim',
-     awards:'FOUR-TIMME EMMY- WINNER',
-     title:'',
+     name:'Gonzalo Salinas',
+     image:'gonzalo',
+     awards:'PH.D. OXFORD, M.A. HARVARD',
+     text:'',
      }, 
     ];
 
-    export { dataBaseCostumers };
+    export { dataBaseSpecialists };

@@ -3,16 +3,17 @@ import "./Carousel.css";
 
 function Carousel (props) {
     return(
-      <div className= 'container-testimonial'>
+      <div className= 'container-carousel'>
           <img 
-          className='imagen-testimonial' 
-          src={require(`../imagenes/testimonio-${props.imagen}.png`)}
-          alt={props.imagen}
+          className='imagen-carousel' 
+          src={`../images/specialist-mini-${props.image}.jpg`}
+          // src={require(`../images/specialist-mini-${props.image}.jpg`)}
+          alt={props.image}
           />
           <div className ='container-text'>
-            <p className='name-testimonial'>{props.name} en {props.country}</p>
-            <p className='cargo-testimonial'>{props.position} en {props.company}</p>
-            <p className='text-testimonial'>"{props.testimonial}"</p>
+            <p className='name-carousel'>{props.name}</p>
+            <p className='awards-carousel'>{props.awards}</p>
+            <p className='text-carousel'>"{props.text}"</p>
           </div>
         </div>
     )
