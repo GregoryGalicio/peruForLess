@@ -14,9 +14,10 @@ function App() {
   //   }
   return (
     <div className="App">
-      <div className="container-carousel">
+      <div className='container1'>
         <h1>The Peru Specialist</h1>
-      {dataBaseSpecialists.map((dataBaseSpecialists, index) => {
+        <div className="container">
+        {dataBaseSpecialists.map((dataBaseSpecialists, index) => {
         return (
           <Carousel
           name={dataBaseSpecialists.name}
@@ -27,6 +28,7 @@ function App() {
           />
         );
       })}
+        </div>
       </div>
       <br></br>
       <br></br><br></br>
