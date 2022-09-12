@@ -2,7 +2,8 @@ import React, {useState} from 'react';
 import './App.css';
 import Carousel from './components/carousel/Carousel';
 import Footer from "./components/footer/Footer";
-import { dataBaseSpecialists } from './dataBaseSpecialists';
+import { dataBaseSpecialists } from './dataBaseSpecialists.js';
+
 
 function App() {
   const[darkMode,setDarkMode]=useState(false);
@@ -13,7 +14,9 @@ function App() {
   //   }
   return (
     <div className="App">
-       {dataBaseSpecialists.map((dataBaseSpecialists, index) => {
+      <div className="container-carousel">
+        <h1>The Peru Specialist</h1>
+      {dataBaseSpecialists.map((dataBaseSpecialists, index) => {
         return (
           <Carousel
           name={dataBaseSpecialists.name}
@@ -24,6 +27,11 @@ function App() {
           />
         );
       })}
+      </div>
+      <br></br>
+      <br></br><br></br>
+
+     
       <Footer darkMode={darkMode}></Footer>
     </div>
   );

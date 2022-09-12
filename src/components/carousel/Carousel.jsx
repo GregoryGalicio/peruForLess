@@ -6,13 +6,14 @@ function Carousel (props) {
       <div className= 'container-carousel'>
           <img 
           className='imagen-carousel' 
-          src={`../images/specialist-mini-${props.image}.jpg`}
-          // src={require(`../images/specialist-mini-${props.image}.jpg`)}
+          // src={`../imagenes/specialist-mini-${props.image}.png`}
+          src={require(`../../imagenes/specialist-mini-${props.image}.png`)}
+          /*se coloca ../../ para salir dos veces sino causa error de encontrar el archivo */
           alt={props.image}
           />
           <div className ='container-text'>
             <p className='name-carousel'>{props.name}</p>
-            <p className='awards-carousel'>{props.awards}</p>
+            <strong className='awards-carousel'>{props.awards}</strong>
             <p className='text-carousel'>{props.text}</p>
           </div>
         </div>
