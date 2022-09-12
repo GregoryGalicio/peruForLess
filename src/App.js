@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <div className='container1'>
         <h1>The Peru Specialist</h1>
-        <div className="container">
+        <div className="container2">
         {dataBaseSpecialists.map((dataBaseSpecialists, index) => {
         return (
           <Carousel
