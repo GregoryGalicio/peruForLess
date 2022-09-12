@@ -73,3 +73,18 @@
   background-color: white;
   margin-top: 200px;
 }
+.featured{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+  background-color: #61dafb;
+}
+.carouselFeatured{
+  background-color: #61dafb;
+}
+.containerFeatured{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
