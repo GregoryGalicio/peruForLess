@@ -19,6 +19,8 @@ function App() {
     <div className="App">
       <Head
       img="home"
+      img1="trustpilot-new-home"
+      imgWatch="watch-icon"
       ></Head>
       <div className='containerFeatured'>
         <div className="subtext">Featured in:</div>
@@ -60,7 +62,24 @@ function App() {
       <br></br>
       <br></br><br></br>
 
-     
+      <div className='containerFeatured'>
+        
+        <div className='featured'>
+      {dataBaseFeatured.map((dataBaseFeatured, index) => {
+        return (
+          <Featured
+          name={dataBaseFeatured.name}
+          image={dataBaseFeatured.image}
+          awards={dataBaseFeatured.awards}
+          text={dataBaseFeatured.text}
+          key={index}
+          preExtension="i-"
+          type="svg"
+          />
+        );
+      })}
+      </div>
+      </div>
       <Footer darkMode={darkMode}></Footer>
     </div>
   );

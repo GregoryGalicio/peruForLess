@@ -49,8 +49,8 @@
 }
 .container-textHead>hr{
     color: #f95d25;
-    width: 8px;
-    border-top: 8px solid;
+    width: 15px;
+    border-top: 15px solid;
     margin: 18px 0;
     
 }
@@ -73,4 +73,29 @@
     line-height: 2.2rem;
     margin-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
+    font-weight: 400 px;
+}
+.imagen-trust{
+    width: 100%;
+    max-width: 320px;
+}
+
+.play-video{
+    display: flex;
+    align-items:center;
+    color: inherit;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 1.7rem;
+    opacity: 1;
+    transition: .5s;
+    margin-top: 50px;
+    font-size: 'Open Sans', sans-serif;;
+}
+
+.imagen-watch{
+    width: 45px;
+    
+    vertical-align: middle;
+    border-style: none;
 }
