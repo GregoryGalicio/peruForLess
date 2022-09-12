@@ -21,7 +21,7 @@ function App() {
       img="home"
       ></Head>
       <div className='containerFeatured'>
-        <h2>Featured</h2>
+        <div className="subtext">Featured in:</div>
         <div className='featured'>
       {dataBaseFeatured.map((dataBaseFeatured, index) => {
         return (
@@ -40,7 +40,7 @@ function App() {
       </div>
       
       <div className='container1'>
-        <h1>The Peru Specialist</h1>
+        <div className='subtext1'>The Peru Specialist</div>
         <div className="container2">
         {dataBaseSpecialists.map((dataBaseSpecialists, index) => {
         return (

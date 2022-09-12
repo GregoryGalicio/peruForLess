@@ -6,10 +6,9 @@ function Head (props){
       <div className= 'container-head'>
          <div className ='container-textHead'>
             <h1 className='name-head'>Let us design your trip of a lifetime</h1>
-            <br></br>
-            <p>.</p>
+            <hr></hr>
             {/* <strong className='awards-head'>{props.awards}</strong> */}
-            <h2 className='text-head'>Boutique travel to Peru designed for <strong>youu local experts</strong></h2>
+            <h2 className='text-head'>Boutique travel to Peru designed for you by <strong>local experts</strong></h2>
           </div>
           <img 
           className='imagen-head'
