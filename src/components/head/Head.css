@@ -1,21 +1,30 @@
-.container-carousel{
+.container-head{
     /* border: 1px solid red; */
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items:center;
-    width:220px;
-    height: 60px;
+    width:100%;
+    height: 900px;
+    flex-wrap: wrap;
     /* background-image: linear-gradient(225deg, #525153  0%, #ffffff 100%); */
-    background-color: #ffffff;
+    background-color: #f2f7e8;
     margin-left: 10px;
     box-shadow: 0 3px 13px 1px rgb(0 0 0 / 59%);
     position: relative;
     min-height: 1px;
     padding-right: 15px;  
+    padding-left: 45px;  
+    /* margin-right: -15px;
+    margin-left: -15px; */
 }
-.imagen-carousel{
+.imagen-head{
     /* border: 1px solid green; */
-    height: 60px;
+    height: 619px;
+    width: 880px;
+    max-width: 66.666667%;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .container-text{
     /* border: 1px solid blueviolet; */
@@ -23,19 +32,19 @@
     font-family: Lato, sans-serif;
     font-weight: 200;
     line-height: 0.8em;
-    height: 60px;
+    height: 200px;
     width: 150px;
     line-height: 12px;
     font-size: .8em;
     font-weight: bold;
 }
-.name-carousel{
+.name-head{
     /* border: 1px solid blue; */
     font-size: 0.8em;
     color: #666;
     line-height: 1.2em;
 }
-.awards-carousel{
+.awards-head{
     /* border: 1px solid blue; */
     font-size: 0.8em;
     font-weight: bolder;
@@ -46,7 +55,7 @@
     cursor: pointer;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.text-carousel{
+.text-head{
     text-align: justify;
     /* border: 1px solid green; */
     font-size: 0.8em;
