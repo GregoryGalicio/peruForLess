@@ -4,7 +4,7 @@ import "./Head.css";
 function Head (props){
     return(
       <div className= 'container-head'>
-         <div className ='container-text'>
+         <div className ='container-textHead'>
             <h1 className='name-head'>Let us design your trip of a lifetime</h1>
             <br></br>
             <p>.</p>

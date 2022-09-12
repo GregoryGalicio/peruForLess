@@ -7,7 +7,7 @@ function Carousel (props) {
           <img 
           className='imagen-carousel' 
           // src={`../imagenes/specialist-mini-${props.image}.png`}
-          src={require(`../../imagenes/specialist-mini-${props.image}.png`)}
+          src={require(`../../imagenes/${props.preExtension}${props.image}.${props.type}`)}
           /*se coloca ../../ para salir dos veces sino causa error de encontrar el archivo */
           alt={props.image}
           />
