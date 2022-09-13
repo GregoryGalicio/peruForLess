@@ -20,6 +20,7 @@ function App() {
     <div className="App">
       <Navbar
       img="pfl-logo-1"
+      img1="menu"
       ></Navbar>
       <Head
       img="home"
