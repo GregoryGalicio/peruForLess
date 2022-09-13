@@ -6,6 +6,7 @@ import Head from './components/head/Head';
 import { dataBaseSpecialists } from './dataBaseSpecialists.js';
 import {dataBaseFeatured} from './dataBaseFeatured';
 import Featured from './components/Featured/Featured';
+import Navbar from './components/navbar/Navbar';
 
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
   //   }
   return (
     <div className="App">
+      <Navbar
+      img="pfl-logo-1"
+      ></Navbar>
       <Head
       img="home"
       img1="trustpilot-new-home"
@@ -63,7 +67,6 @@ function App() {
       <br></br><br></br>
 
       <div className='containerFeatured'>
-        
         <div className='featured'>
       {dataBaseFeatured.map((dataBaseFeatured, index) => {
         return (
